@@ -1,0 +1,16 @@
+What is git and how is different then github?
+*github is a platform where we save and store our codes.
+To save or store our code we need some control tool.
+Git is the control tool to create repositories.Git actually track all
+changes on that repo.
+===============================================================
+Why use the terminal ?
+It is more effiecient. Sometimes we can use some powerfull commands in order
+to do things which cannot be done with GUI.
+==============================================
+Advantages of version control :
+1.Everyone can work from one code base and can download source code from any
+local machine.
+2.Programmers can create branch and work their own branch.So main code is untouched.Reviewed by
+senior person and programmers can work peacfull and they dont have to worry to break the main code.
+3.Git track your work it is easy to find where the changes are made.
