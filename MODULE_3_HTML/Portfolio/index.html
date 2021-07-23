@@ -8,59 +8,108 @@
   </head>
   <!-- Instead of non semantic html I am using semantic html-->
   <body>
-    <header class ="banner">
-      <h1 class= "title"><strong>Bahjat Khan</strong></h1>
-      <nav class="nav">
+    <header class="banner">
+      <h1 class="title"><strong>Bahjat Khan</strong></h1>
+      <p><em>Software Engineer</em></p>
+      <nav class="about-me">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
-         <figure>
-             <img src="images/1_JMsN-rnyB1H2q14RbQsVBw.jpeg"
-              alt= "Portfolio Image"
-              height="200"
-              width="266.5"/>
-          </figure>
-       
-          <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
-          <li><a href="https://github.com/BahjatKhan" target="_blank">Github</a></li>
+          <section class="profile">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <figure class="profile-pic">
+              <img
+                src="images/1_JMsN-rnyB1H2q14RbQsVBw.jpeg"
+                alt="Portfolio Image"
+                height="200"
+                width="266.5"
+              />
+            </figure>
+            <section class="social-media">
+              <i class="fab fa-github"></i>
+              <li>
+                <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+              </li>
+              <li>
+                <a href="https://github.com/BahjatKhan" target="_blank"
+                  >Github</a
+                >
+              </li>
+            </section>
+          </section>
         </ul>
       </nav>
-      
     </header>
 
-    <main>
-
-      <article>
+    <main class="career">
+      <article class="about-me">
         <header>
           <h3>About Me</h3>
         </header>
+        <p>
+          Sed feugiat quam nec purus finibus, at venenatis sapien euismod. Donec
+          hendrerit augue turpis, vitae fermentum.
+        </p>
       </article>
-       
-      <article>
+
+      <article class="goals">
         <header>
           <h3>My goals</h3>
         </header>
+        <p>
+          Nunc vel aliquam sapien. Curabitur porta neque sed tortor mattis
+          ornare. Nam hendrerit finibus nisl. Curabitur tempus elementum ex, et
+          bibendum purus vulputate eget.
+        </p>
       </article>
 
-      <article>
+      <article class="skills">
         <header>
-          <h3>
-            Skills 
-          </h3>
+          <h3>Skills</h3>
         </header>
+        <ul>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Next.js</li>
+          <li>Express.js</li>
+          <li>Jest</li>
+          <li>Material UI</li>
+          <li>Sass</li>
+        </ul>
       </article>
 
-      <article>
+      <article class="projects">
         <header>
-          <h3>
-            My Project
-          </h3>
+          <h3>My Project</h3>
         </header>
-
+        <section class="project">
+          <a href="index.html"><h4>Project Title</h4></a>
+          <figure>
+            <img
+              src="images/screenshot.png"
+              alt="screenshot-portfolio"
+              height="200"
+              width="200"
+            />
+          </figure>
+          <figcaption>This is my portfolio</figcaption>
+        </section>
       </article>
-
+      <article class="contact-form">
+        <header>
+          <h3>Contact Me</h3>
+        </header>
+        <form class="contact">
+          <label for="name">Name :</label><br />
+          <input type="text" name="name" /> <br />
+          <label for="email">Email :</label><br />
+          <input type="text" name="email" /> <br />
+          <label for="message">Message :</label><br />
+          <textarea rows="3" cols="50" name="message"></textarea> <br />
+          <input type="submit" name="Contact" /> <br />
+        </form>
+      </article>
     </main>
 
-    <footer>Copyright &copyBahjatKhan; 2021</footer>
+    <footer class="footer">Copyright &copyBahjatKhan 2021</footer>
   </body>
 </html>
